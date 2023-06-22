@@ -1,0 +1,167 @@
+.leaflet-container {
+	background: #f7f5f5;
+	outline-offset: 1px;
+	}
+    .leaflet-container a {
+        color: #0b0b0b;
+        };
+    
+        .leaflet-bar a {
+            background-color: #f8f2f2;
+            border-bottom: 1px solid #ccc;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(250, 6, 6);
+            }
+
+            .leaflet-bar a:hover,
+            .leaflet-bar a:focus {
+                background-color: #ddddd8;
+                }
+
+                .leaflet-touch .leaflet-bar a {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    }
+
+
+                    .leaflet-touch .leaflet-bar a:first-child {
+                        border-top-left-radius: 2px;
+                        border-top-right-radius: 2px;
+                        }
+                    .leaflet-touch .leaflet-bar a:last-child {
+                        border-bottom-left-radius: 2px;
+                        border-bottom-right-radius: 2px;
+                        }
+
+
+
+                        .leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
+                            font-size: 22px;
+                            }
+
+
+/* layers control */
+.leaflet-control-layers-base::after {
+	content:  "_____________________________";
+	color: rgb(11, 11, 11);
+	max-width: 10;
+
+}
+.leaflet-control-layers-base::before{
+	content:  "_____________________________";
+	color: rgb(11, 11, 11);
+	max-width: 10;
+
+}
+.leaflet-control-layers-separator::before{
+	
+	color: #f5f1f1;
+
+}
+.leaflet-control-layers-overlays::after {
+	content:  "_____________________________";
+}
+.leaflet-control-layers-selector::after{
+
+}
+
+
+
+
+
+
+
+.leaflet-control-layers {
+	box-shadow: 0 1px 5px rgba(240, 233, 233, 0.4);
+	background: #fbeeee;
+	border-radius: 10px;
+	}
+	 .leaflet-control-layers::after {
+		content:  'Legend';
+		position: absolute;
+		color: #070707;
+		font-variant: small-caps;
+		
+	}
+.leaflet-control-layers-toggle {
+	background-image: url(images/layers.png);
+	width: 1006px;
+	height: 36px;
+	}
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: url(images/layers-2x.png);
+	background-size: 26px 26px;
+	}
+.leaflet-touch .leaflet-control-layers-toggle {
+	width: 44px;
+	height: 44px;
+	}
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+	display: none;
+	}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+	display: block;
+	position: relative;
+	}
+.leaflet-control-layers-expanded {
+	padding: 10px 14px 10px 10px;
+	color: #0e0d0d;
+	background: #f5dada;
+	}
+.leaflet-control-layers-scrollbar {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-right: 5px;
+	}
+.leaflet-control-layers-selector {
+	margin-top: 2px;
+	position: relative;
+	top: 1px;
+	}
+.leaflet-control-layers label {
+	display: block;
+	font-size: 100px;
+	font-size: 1.08333em;
+	text-transform: uppercase;
+	font-weight:bolder;
+	}
+.leaflet-control-layers-separator {
+	height: 0;
+	border-top: 1px solid #ddd;
+	margin: 5px -10px 5px -6px;
+	}
+
+
+/* attribution and scale controls */
+
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	/*display: none; /* display titre buttom page leaflet */
+	}
+	.leaflet-container .leaflet-control-attribution a{
+		display: none;
+	}
+
+	.leaflet-container .leaflet-control-attribution::before {
+		content: "Labriki Karima   ";
+		font-size: 15px;
+		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-style: italic;
+		
+		}
+
+
+
+
+
+
+		
